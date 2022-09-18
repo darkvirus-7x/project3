@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    max-height: 100%;
+    background: url('wallpaperflare.com_wallpaper (3).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 110vh;
+    font-family:system-ui;
+}
+.img img{
+    width: 150px;
+    height: 100px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+nav{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 5px 10px 8px 10px;
+    transition: 0.4s ease-in; 
+    border-radius: 20px;
+    font-weight: 600;
+}
+.link{
+    margin-right: 50px;
+}
+.link a:hover{
+    background: white;
+    color: black;
+}
+.img img:hover{
+    transform: scale(1.1);
+}
+.cart1 img{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 5px;
+}
+.cart1{
+    background: rgba(255, 255, 255, 70%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+.cart1 h3{
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+.cart1 div{
+    color: rgba(77, 77, 77, 90%);
+}
+.cart1:hover{
+    transform: scale(1.05);
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.cart1{
+    margin-right: 20px;
+}
